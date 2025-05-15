@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+    <title>Interactive Trading journal calendar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <h1>Trading PNL Calendar (2025–2026)</h1>
+  <div id="calendar-container"></div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close">&times;</span>
+      <h2 id="modal-date"></h2>
+      <textarea id="text-input" placeholder="Enter your trade note..."></textarea>
+      <input type="file" id="image-input" accept="image/*" />
+      <button id="save-btn">Save</button>
+      <div id="preview"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
